@@ -8,20 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		6F0279A01F0DD23B005D5630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F02799F1F0DD23B005D5630 /* AppDelegate.swift */; };
-		6F0279A21F0DD23B005D5630 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0279A11F0DD23B005D5630 /* ViewController.swift */; };
 		6F0279A51F0DD23B005D5630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0279A31F0DD23B005D5630 /* Main.storyboard */; };
 		6F0279A71F0DD23B005D5630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0279A61F0DD23B005D5630 /* Assets.xcassets */; };
 		6F0279AA1F0DD23B005D5630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0279A81F0DD23B005D5630 /* LaunchScreen.storyboard */; };
+		6F0279BA1F0DD2F8005D5630 /* Trusted_DevicesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0279B41F0DD2F8005D5630 /* Trusted_DevicesInteractor.swift */; };
+		6F0279BB1F0DD2F8005D5630 /* Trusted_DevicesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0279B51F0DD2F8005D5630 /* Trusted_DevicesPresenter.swift */; };
+		6F0279BC1F0DD2F8005D5630 /* Trusted_DevicesProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0279B61F0DD2F8005D5630 /* Trusted_DevicesProtocols.swift */; };
+		6F0279BD1F0DD2F8005D5630 /* Trusted_DevicesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0279B71F0DD2F8005D5630 /* Trusted_DevicesRouter.swift */; };
+		6F0279BE1F0DD2F8005D5630 /* Trusted_DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0279B81F0DD2F8005D5630 /* Trusted_DevicesViewController.swift */; };
+		6F0279CD1F0DE54B005D5630 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F0279C31F0DE515005D5630 /* OpenSans-Bold.ttf */; };
+		6F0279CE1F0DE54B005D5630 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F0279C41F0DE515005D5630 /* OpenSans-BoldItalic.ttf */; };
+		6F0279CF1F0DE54B005D5630 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F0279C51F0DE515005D5630 /* OpenSans-ExtraBold.ttf */; };
+		6F0279D01F0DE54B005D5630 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F0279C61F0DE515005D5630 /* OpenSans-ExtraBoldItalic.ttf */; };
+		6F0279D11F0DE54B005D5630 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F0279C71F0DE515005D5630 /* OpenSans-Italic.ttf */; };
+		6F0279D21F0DE54B005D5630 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F0279C81F0DE515005D5630 /* OpenSans-Light.ttf */; };
+		6F0279D31F0DE54B005D5630 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F0279C91F0DE515005D5630 /* OpenSans-LightItalic.ttf */; };
+		6F0279D41F0DE54B005D5630 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F0279CA1F0DE515005D5630 /* OpenSans-Regular.ttf */; };
+		6F0279D51F0DE54B005D5630 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F0279CB1F0DE515005D5630 /* OpenSans-Semibold.ttf */; };
+		6F0279D61F0DE54B005D5630 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F0279CC1F0DE515005D5630 /* OpenSans-SemiboldItalic.ttf */; };
+		6F0279DC1F0E2B3A005D5630 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0279DB1F0E2B3A005D5630 /* Device.swift */; };
+		6F56CA1D1F12BC2200CB1FE8 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F56CA1C1F12BC2200CB1FE8 /* DeviceTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6F02799C1F0DD23B005D5630 /* TrustedDevices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrustedDevices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F02799F1F0DD23B005D5630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6F0279A11F0DD23B005D5630 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6F0279A41F0DD23B005D5630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F0279A61F0DD23B005D5630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F0279A91F0DD23B005D5630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F0279AB1F0DD23B005D5630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F0279B41F0DD2F8005D5630 /* Trusted_DevicesInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trusted_DevicesInteractor.swift; sourceTree = "<group>"; };
+		6F0279B51F0DD2F8005D5630 /* Trusted_DevicesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trusted_DevicesPresenter.swift; sourceTree = "<group>"; };
+		6F0279B61F0DD2F8005D5630 /* Trusted_DevicesProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trusted_DevicesProtocols.swift; sourceTree = "<group>"; };
+		6F0279B71F0DD2F8005D5630 /* Trusted_DevicesRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trusted_DevicesRouter.swift; sourceTree = "<group>"; };
+		6F0279B81F0DD2F8005D5630 /* Trusted_DevicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trusted_DevicesViewController.swift; sourceTree = "<group>"; };
+		6F0279C31F0DE515005D5630 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		6F0279C41F0DE515005D5630 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6F0279C51F0DE515005D5630 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		6F0279C61F0DE515005D5630 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		6F0279C71F0DE515005D5630 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		6F0279C81F0DE515005D5630 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		6F0279C91F0DE515005D5630 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		6F0279CA1F0DE515005D5630 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		6F0279CB1F0DE515005D5630 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		6F0279CC1F0DE515005D5630 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		6F0279DB1F0E2B3A005D5630 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		6F56CA1C1F12BC2200CB1FE8 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +86,70 @@
 		6F02799E1F0DD23B005D5630 /* TrustedDevices */ = {
 			isa = PBXGroup;
 			children = (
-				6F02799F1F0DD23B005D5630 /* AppDelegate.swift */,
-				6F0279A11F0DD23B005D5630 /* ViewController.swift */,
-				6F0279A31F0DD23B005D5630 /* Main.storyboard */,
-				6F0279A61F0DD23B005D5630 /* Assets.xcassets */,
-				6F0279A81F0DD23B005D5630 /* LaunchScreen.storyboard */,
-				6F0279AB1F0DD23B005D5630 /* Info.plist */,
+				6F0279D71F0DE55A005D5630 /* Other */,
+				6F0279C21F0DE505005D5630 /* Font */,
+				6F0279B21F0DD266005D5630 /* Classes */,
 			);
 			path = TrustedDevices;
+			sourceTree = "<group>";
+		};
+		6F0279B21F0DD266005D5630 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6F0279B31F0DD27A005D5630 /* Trusted_Devices */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		6F0279B31F0DD27A005D5630 /* Trusted_Devices */ = {
+			isa = PBXGroup;
+			children = (
+				6F0279DB1F0E2B3A005D5630 /* Device.swift */,
+				6F0279D81F0E2462005D5630 /* CellDevice */,
+				6F0279B41F0DD2F8005D5630 /* Trusted_DevicesInteractor.swift */,
+				6F0279B51F0DD2F8005D5630 /* Trusted_DevicesPresenter.swift */,
+				6F0279B61F0DD2F8005D5630 /* Trusted_DevicesProtocols.swift */,
+				6F0279B71F0DD2F8005D5630 /* Trusted_DevicesRouter.swift */,
+				6F0279B81F0DD2F8005D5630 /* Trusted_DevicesViewController.swift */,
+			);
+			name = Trusted_Devices;
+			sourceTree = "<group>";
+		};
+		6F0279C21F0DE505005D5630 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				6F0279C31F0DE515005D5630 /* OpenSans-Bold.ttf */,
+				6F0279C41F0DE515005D5630 /* OpenSans-BoldItalic.ttf */,
+				6F0279C51F0DE515005D5630 /* OpenSans-ExtraBold.ttf */,
+				6F0279C61F0DE515005D5630 /* OpenSans-ExtraBoldItalic.ttf */,
+				6F0279C71F0DE515005D5630 /* OpenSans-Italic.ttf */,
+				6F0279C81F0DE515005D5630 /* OpenSans-Light.ttf */,
+				6F0279C91F0DE515005D5630 /* OpenSans-LightItalic.ttf */,
+				6F0279CA1F0DE515005D5630 /* OpenSans-Regular.ttf */,
+				6F0279CB1F0DE515005D5630 /* OpenSans-Semibold.ttf */,
+				6F0279CC1F0DE515005D5630 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		6F0279D71F0DE55A005D5630 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6F0279A31F0DD23B005D5630 /* Main.storyboard */,
+				6F02799F1F0DD23B005D5630 /* AppDelegate.swift */,
+				6F0279A81F0DD23B005D5630 /* LaunchScreen.storyboard */,
+				6F0279A61F0DD23B005D5630 /* Assets.xcassets */,
+				6F0279AB1F0DD23B005D5630 /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		6F0279D81F0E2462005D5630 /* CellDevice */ = {
+			isa = PBXGroup;
+			children = (
+				6F56CA1C1F12BC2200CB1FE8 /* DeviceTableViewCell.swift */,
+			);
+			name = CellDevice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +212,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F0279CD1F0DE54B005D5630 /* OpenSans-Bold.ttf in Resources */,
+				6F0279CE1F0DE54B005D5630 /* OpenSans-BoldItalic.ttf in Resources */,
+				6F0279CF1F0DE54B005D5630 /* OpenSans-ExtraBold.ttf in Resources */,
+				6F0279D01F0DE54B005D5630 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				6F0279D11F0DE54B005D5630 /* OpenSans-Italic.ttf in Resources */,
+				6F0279D21F0DE54B005D5630 /* OpenSans-Light.ttf in Resources */,
+				6F0279D31F0DE54B005D5630 /* OpenSans-LightItalic.ttf in Resources */,
+				6F0279D41F0DE54B005D5630 /* OpenSans-Regular.ttf in Resources */,
+				6F0279D51F0DE54B005D5630 /* OpenSans-Semibold.ttf in Resources */,
+				6F0279D61F0DE54B005D5630 /* OpenSans-SemiboldItalic.ttf in Resources */,
 				6F0279AA1F0DD23B005D5630 /* LaunchScreen.storyboard in Resources */,
 				6F0279A71F0DD23B005D5630 /* Assets.xcassets in Resources */,
 				6F0279A51F0DD23B005D5630 /* Main.storyboard in Resources */,
@@ -137,8 +235,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F0279A21F0DD23B005D5630 /* ViewController.swift in Sources */,
+				6F0279BE1F0DD2F8005D5630 /* Trusted_DevicesViewController.swift in Sources */,
+				6F0279BA1F0DD2F8005D5630 /* Trusted_DevicesInteractor.swift in Sources */,
+				6F0279BB1F0DD2F8005D5630 /* Trusted_DevicesPresenter.swift in Sources */,
 				6F0279A01F0DD23B005D5630 /* AppDelegate.swift in Sources */,
+				6F56CA1D1F12BC2200CB1FE8 /* DeviceTableViewCell.swift in Sources */,
+				6F0279BD1F0DD2F8005D5630 /* Trusted_DevicesRouter.swift in Sources */,
+				6F0279BC1F0DD2F8005D5630 /* Trusted_DevicesProtocols.swift in Sources */,
+				6F0279DC1F0E2B3A005D5630 /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +408,7 @@
 				6F0279B01F0DD23B005D5630 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
